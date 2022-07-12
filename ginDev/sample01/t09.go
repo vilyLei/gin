@@ -10,7 +10,8 @@ import (
 
 func main() {
 
-	// http://localhost:9090/v1/longin?name=hlolo
+	// http://localhost:9090/v1/login?name=hlolo
+	// http://localhost:9090/v1/submit?name=hyuo
 	// 1.创建路由
 	// 默认使用了2个中间件Logger(), Recovery()
 	r := gin.Default()
