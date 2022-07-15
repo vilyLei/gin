@@ -1,10 +1,8 @@
 
 
-class Demo {
-    constructor() { }
-    initialize(): void { }
-    run(): void { }
-}
+
+import { ClientDemo as Demo } from "./client/ClientDemo";
+
 document.title = "goTsClient";
 let demoIns: Demo = new Demo();
 let ins: any = demoIns;
